@@ -1,0 +1,6 @@
+Name: pamy, Roll No:5
+Marks:55/80
+Name: amy, Roll No:6
+Marks:59/80
+Name: gamy, Roll No:7
+Marks:52/80

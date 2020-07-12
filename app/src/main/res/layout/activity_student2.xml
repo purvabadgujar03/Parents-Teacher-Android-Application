@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity2"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@color/purple2"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnAssignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple5"
+        android:layout_marginBottom="25dp"
+        android:text="Submit Assignment"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@color/purple5"
+        android:text="View Result"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnAnnouncement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@color/purple5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Announcements"
+        />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:layout_marginBottom="25dp"
+        android:background="@color/purple5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+
+

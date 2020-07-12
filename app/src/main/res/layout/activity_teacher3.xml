@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherActivity3">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@color/purple2"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Announcement" />
+
+    <Spinner
+        android:id="@+id/spSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:scrollbarSize="50dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginLeft="56dp"/>
+
+    <EditText
+        android:inputType="textMultiLine"
+    android:lines="25"
+    android:minLines="15"
+    android:gravity="top|left"
+    android:maxLines="50"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+        android:id="@+id/etNote"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginBottom="25dp"
+        android:background="@color/purple5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Back"
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

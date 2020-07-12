@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ParentActivity3">
+
+
+    <TextView
+        android:id="@+id/tvSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/purple4"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Parents-Teacher Meeting " />
+
+    <TextView
+        android:id="@+id/tvCon"
+        android:layout_width="match_parent"
+        android:minLines="10"
+        android:gravity="top|left"
+        android:textColor="@color/purple"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text=""
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/purple5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Back"
+        />
+
+
+</LinearLayout>
